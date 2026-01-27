@@ -7,8 +7,7 @@ export const Team = (props) => {
         <div className="col-md-8 col-md-offset-2 section-title">
           <h2>Meet the Team</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            Samicon is built on collective expertise. Our team is composed entirely of professional engineers who bring diverse technical backgrounds to every project. This integrated approach allows us to maintain exceptional oversight, accountability, and precision throughout the development lifecycle.
           </p>
         </div>
         <div id="row">

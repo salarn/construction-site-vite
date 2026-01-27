@@ -1,23 +1,69 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Designed. Engineered. Built.",
+    "paragraph": "Precision in Development. A Legacy in Every Home.\n Samicon is a family-owned, engineer-led development firm in Greater Vancouver, creating thoughtfully engineered family homes and modern multiplexes—designed, managed, and delivered by professional engineers."
   },
+  "Features": [
+    {
+      "icon": "fa fa-cogs",
+      "title": "Engineer-Led Development",
+      "text": "Every Samicon project is led by professional engineers, ensuring technical excellence, efficiency, and long-term value from concept to completion."
+    },
+    {
+      "icon": "fa fa-home",
+      "title": "Family-Owned & Operated",
+      "text": "As a family-owned development firm, we take a personal, long-term approach to every project we bring to market."
+    },
+    {
+      "icon": "fa fa-map-marker",
+      "title": "Greater Vancouver Focus",
+      "text": "We specialize exclusively in residential development within Greater Vancouver, with deep local knowledge of zoning, design, and market needs."
+    },
+    {
+      "icon": "fa fa-building",
+      "title": "Purpose-Driven Housing",
+      "text": "From detached homes to multiplexes, our projects respond directly to the evolving housing needs of our communities."
+    }
+  ],
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Samicon is a family-owned residential development company rooted in Greater Vancouver. We specialize in acquiring and redeveloping residential properties into high-quality detached homes and modern multiplexes. \n Our philosophy is simple: a home is only as strong as the engineering behind it. That belief shapes every decision we make—from land acquisition and rezoning to design, construction, and final delivery. We are not contractors for hire; we are owners, developers, and engineers fully invested in the homes we create and the neighborhoods we help shape.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "All-Engineer Team",
+      "In-House Expertise",
+      "Higher Standards"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "End-to-End Control",
+      "Long-Term Vision"
     ]
   },
+  "Services": [
+    {
+      "icon": "fa fa-search",
+      "name": "Property Acquisition",
+      "text": "We strategically identify and acquire residential properties with strong redevelopment potential across Greater Vancouver."
+    },
+    {
+      "icon": "fa fa-refresh",
+      "name": "Residential Redevelopment",
+      "text": "We manage complete redevelopment projects, transforming existing properties into high-quality family homes and multiplexes."
+    },
+    {
+      "icon": "fa fa-building",
+      "name": "Multiplex Development",
+      "text": "In response to evolving housing needs, we specialize in converting single lots into efficient, well-designed multiplex residences."
+    },
+    {
+      "icon": "fa fa-cogs",
+      "name": "In-House Engineering Oversight",
+      "text": "Every project undergoes rigorous internal engineering review to ensure safety, efficiency, sustainability, and long-term performance."
+    },
+    {
+      "icon": "fa fa-tasks",
+      "name": "Rezoning & Project Management",
+      "text": "Our team oversees rezoning, approvals, design coordination, and execution—streamlining complex processes under one roof."
+    }
+  ],
   "Gallery": [
     {
       "title": "Project Title",
@@ -63,38 +109,6 @@
       "title": "Project Title",
       "largeImage": "img/portfolio/09-large.jpg",
       "smallImage": "img/portfolio/09-small.jpg"
-    }
-  ],
-  "Services": [
-    {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     }
   ],
   "Testimonials": [
@@ -152,33 +166,11 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
+    "address": "2108 Gilmore Avenue\n Burnaby, BC\n V5C 0N8",
+    "phone": "+1 604 719 4568 \n+1 604 217 0020",
+    "email": "info@samicon.ca",
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
-  },
-  "Features": [
-    {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    }
-  ]
+  }
 }
