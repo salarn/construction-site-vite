@@ -7,8 +7,7 @@ export const Services = (props) => {
         <div className="section-title">
           <h2>Our Services</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            Samicon delivers end-to-end residential development services, combining strategic land acquisition, in-house engineering oversight, and disciplined project management to create high-quality family homes and multiplexes across Greater Vancouver.
           </p>
         </div>
         <div className="row">
