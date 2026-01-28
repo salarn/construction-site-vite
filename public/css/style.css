@@ -72,6 +72,12 @@ hr {
   border: 0;
 }
 /* Navigation */
+.service-item {
+  height: 300px; /* choose the height that fits your tallest item */
+  text-align: center;
+  padding: 1rem;
+  box-sizing: border-box;
+}
 #menu {
   padding: 15px;
   transition: all 0.8s;

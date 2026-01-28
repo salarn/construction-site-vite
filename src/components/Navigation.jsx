@@ -1,16 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 
 export const Navigation = (props) => {
+  const [isOpen, setIsOpen] = useState(false); // React state to control mobile menu
+
+  const toggleMenu = () => setIsOpen(!isOpen);
+
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
         <div className="navbar-header">
           <button
             type="button"
-            className="navbar-toggle collapsed"
+            className="navbar-toggle"
             data-toggle="collapse"
-            data-target="#bs-example-navbar-collapse-1"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            onClick={toggleMenu} // React-controlled toggle
           >
+            <span className="navbar-toggler-icon"></span>
             {" "}
             <span className="sr-only">Toggle navigation</span>{" "}
             <span className="icon-bar"></span>{" "}
@@ -21,8 +30,8 @@ export const Navigation = (props) => {
         </div>
 
         <div
-          className="collapse navbar-collapse"
-          id="bs-example-navbar-collapse-1"
+          className={`collapse navbar-collapse ${isOpen ? "show" : ""}`}
+          id="#navbarNav"
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
