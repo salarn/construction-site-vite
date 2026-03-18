@@ -9,6 +9,7 @@ const initialState = {
 };
 export const Contact = (props) => {
   const [{ name, email, message }, setState] = useState(initialState);
+  const [messageSent, setMessageSent] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -18,17 +19,17 @@ export const Contact = (props) => {
   
   
   const handleSubmit = (e) => {
+    //clearState();
     e.preventDefault();
-    console.log(name, email, message);
-    
-    {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
+    //console.log(name, email, message);
     
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
+      .sendForm("service_s677lsf", "template_78e557m", e.target, "fqgSDVmz0UvsGe2MC")
       .then(
         (result) => {
           console.log(result.text);
           clearState();
+          setMessageSent(true);
         },
         (error) => {
           console.log(error.text);
@@ -58,6 +59,7 @@ export const Contact = (props) => {
                         className="form-control"
                         placeholder="Name"
                         required
+                        value={name}
                         onChange={handleChange}
                       />
                       <p className="help-block text-danger"></p>
@@ -72,6 +74,7 @@ export const Contact = (props) => {
                         className="form-control"
                         placeholder="Email"
                         required
+                        value={email}
                         onChange={handleChange}
                       />
                       <p className="help-block text-danger"></p>
@@ -86,10 +89,12 @@ export const Contact = (props) => {
                     rows="4"
                     placeholder="Message"
                     required
+                    value={message}
                     onChange={handleChange}
                   ></textarea>
                   <p className="help-block text-danger"></p>
                 </div>
+                {messageSent && <h4 style={{ color: "green" }}>Message sent successfully!</h4>}
                 <div id="success"></div>
                 <button type="submit" className="btn btn-custom btn-lg">
                   Send Message
@@ -124,6 +129,7 @@ export const Contact = (props) => {
               </p>
             </div>
           </div>
+          {/*
           <div className="col-md-12">
             <div className="row">
               <div className="social">
@@ -147,6 +153,7 @@ export const Contact = (props) => {
               </div>
             </div>
           </div>
+          */}
         </div>
       </div>
       <div id="footer">
